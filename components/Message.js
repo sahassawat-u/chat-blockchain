@@ -35,7 +35,7 @@ function Message({ message }) {
         /> */}
       </div>
       <p
-        className={`absoute -bottom-5 text-xs ${
+        className={`absolute -bottom-5 text-xs ${
           isUserMessage ? "text-pink-300" : "text-blue-400"
         }`}
       >
