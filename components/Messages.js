@@ -22,9 +22,8 @@ function Messages() {
       live: true,
     }
   );
-  console.log(data);
   return (
-    <div>
+    <div className="">
       <div className="my-5">
         <ByMoralis
           variant="dark"

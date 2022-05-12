@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["upload.wikimedia.org", "avatars.dicebear.com"],
+    domains: ["content.cryptonews.com.au", "avatars.dicebear.com"],
   },
 };
 

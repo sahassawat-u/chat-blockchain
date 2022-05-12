@@ -20,7 +20,11 @@ export default function Home() {
         <Header />
         <Messages />
       </div>
-      <button onClick={logout}>Logout</button>
+      <div>
+        <div className="absolute bottom-3 right-2 text-gray-400 hover:opacity-50">
+          <button onClick={logout}>Logout</button>
+        </div>
+      </div>
     </div>
   );
 }
